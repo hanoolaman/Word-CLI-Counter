@@ -1,0 +1,25 @@
+{
+  "name": "@hanoolaman/word-cli-counter",
+  "version": "1.0.2",
+  "description": "It is a CLI-based word counter tool, built using TypeScript, Inquirer, and Node.js, offers a seamless and efficient way to count words in input text.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hanoolaman/word-cli-counter": "^1.0.2",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
